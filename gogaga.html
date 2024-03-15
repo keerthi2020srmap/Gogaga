@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogaga Holidays</title>
+    <style>
+        /* Reset some default browser styles */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .package {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: yellow;
+        }
+
+        .collection {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gogaga Holidays</h1>
+        <nav>
+            <ul>
+                <li><a href="#packages">Holiday Packages</a></li>
+                <li><a href="#flights">Flight Booking</a></li>
+                <li><a href="#hotels">Hotel Booking</a></li>
+                <li><a href="#collections">Package Collections</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="packages">
+        <h2>Holiday Packages</h2>
+        <div class="package">
+            <h3>Package 1</h3>
+            <p>Description of Package 1: Explore the cultural heritage and modern amenities of Package 1.</p>
+            <p>Price: $XXX</p>
+        </div>
+        <div class="package">
+            <h3>Package 2</h3>
+            <p>Description of Package 2: Unwind in idyllic surroundings with Package 2.</p>
+            <p>Price: $XXX</p>
+        </div>
+        <!-- More packages can be added similarly -->
+    </section>
+
+    <section id="flights">
+        <h2>Flight Booking</h2>
+        <form>
+            <!-- Flight search form goes here -->
+            <label for="departure">Departure:</label>
+            <input type="text" id="departure" name="departure"><br><br>
+            <label for="arrival">Arrival:</label>
+            <input type="text" id="arrival" name="arrival"><br><br>
+            <input type="submit" value="Search">
+        </form>
+    </section>
+
+    <section id="hotels">
+        <h2>Hotel Booking</h2>
+        <form>
+            <!-- Hotel search form goes here -->
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin"><br><br>
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout"><br><br>
+            <input type="submit" value="Search">
+        </form>
+    </section>
+
+    <section id="collections">
+        <h2>Package Collections</h2>
+        <div class="collection">
+            <h3>Adventure Collection</h3>
+            <!-- Add packages related to adventure -->
+            <div class="package">
+                <h4>Adventure Package 1</h4>
+                <p>Description of Adventure Package 1: Explore the rugged landscapes and thrilling activities.</p>
+                <p>Price: $XXX</p>
+            </div>
+            <div class="package">
+                <h4>Adventure Package 2</h4>
+                <p>Description of Adventure Package 2: Embark on an unforgettable journey.</p>
+                <p>Price: $XXX</p>
+            </div>
+            <!-- More adventure packages can be added similarly -->
+        </div>
+        <div class="collection">
+            <h3>Beach Collection</h3>
+            <!-- Add packages related to beaches -->
+            <div class="package">
+                <h4>Beach Package 1</h4>
+                <p>Description of Beach Package 1: Relax and unwind on exotic beaches.</p>
+                <p>Price: $XXX</p>
+            </div>
+            <div class="package">
+                <h4>Beach Package 2</h4>
+                <p>Description of Beach Package 2: Escape to ultimate tranquility.</p>
+                <p>Price: $XXX</p>
+            </div>
+            <!-- More beach packages can be added similarly -->
+        </div>
+        <!-- More collections can be added similarly -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gogaga Holidays. All rights reserved.</p>
+    </footer>
+</body>
+</html>
